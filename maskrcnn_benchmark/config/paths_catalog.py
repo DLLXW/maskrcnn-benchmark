@@ -92,6 +92,11 @@ class DatasetCatalog(object):
             "split": "test"
             # PASCAL VOC2012 doesn't made the test annotations available, so there's no json annotation
         },
+        #'voc_myvoc_train': {
+            #"data_dir": "myvoc",
+            #"split": "train" #如果是test，那么就是"test"
+            # PASCAL VOC2012 doesn't made the test annotations available, so there's no json annotation
+        #},
         "cityscapes_fine_instanceonly_seg_train_cocostyle": {
             "img_dir": "cityscapes/images",
             "ann_file": "cityscapes/annotations/instancesonly_filtered_gtFine_train.json"
